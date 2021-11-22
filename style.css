@@ -452,6 +452,9 @@ nav.show div.icon-close {
   height: auto;
   padding: 4rem 1rem;
 }
+.swiper-container {
+  overflow: hidden;
+}
 .swiper-pagination {
   position: relative;
 }
