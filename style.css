@@ -30,7 +30,7 @@ img {
   --base-color: hsl(var(--hue) 12% 2%);
   --base-color-second: hsl(var(--hue) 1% 95%);
   --base-color-alt: hsl(var(--hue) 6% 53%);
-  --title-color: hsl(var(--hue) 1% 75%);
+  --title-color: hsl(var(--hue) 1% 50%);
   --text-color: rgb(10, 9, 9);
   --text-color-light: rgb(243, 243, 243);
   --body-color: hsl(0 0% 98%);
@@ -145,12 +145,12 @@ body {
 }
 
 #header.scroll {
-  background: #000000;
-  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
+  background: #fdfdfdfd;
+  box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.15);
 }
 
 header.scroll .logo span {
-  color: rgb(255, 255, 255);
+  color: rgb(196, 192, 192);
   transition: 0.3s;
 }
 
