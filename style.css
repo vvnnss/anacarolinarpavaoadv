@@ -289,20 +289,17 @@ nav.show div.icon-close {
   margin: 0;
 }
 
-  #home .image {
+ #home .image {
   position: relative;
-  top: -11.3%;
-  left: 26.7%;
-
 }
 
 #home .image::before {
   content: '';
-  height: 200%;
-  width: 190%;
+  height: 100%;
+  width: 100%;
   background: var(--base-color-second);
   position: absolute;
-  top:-8.8%;
+  top: -16.8%;
   left: 16.7%;
   z-index: 0;
 }
