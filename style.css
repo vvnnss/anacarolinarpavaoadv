@@ -291,6 +291,7 @@ nav.show div.icon-close {
 
  #home .image {
   position: relative;
+   top: -7.8%
 }
 
 #home .image::before {
